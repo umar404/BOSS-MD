@@ -1,6 +1,6 @@
 
 ## Attention Please! 
-Who Want Nowa Fucntion Register & Unregister Number Searching Bot Inbox Me! !
+Who Want Nowa Fucntion Register & Unregister Number Searching Bot Inbox Me [Click Here Wa Me](https://wa.me/923165123719#L1) 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 <p align="center">
     <img src="https://i.imgur.com/cG37u1e.jpeg" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
@@ -18,7 +18,7 @@ Who Want Nowa Fucntion Register & Unregister Number Searching Bot Inbox Me! !
 
 ---------
 ## ```Connect With Me 📞``` <img src="https://github.com/siegrin/siegrin/blob/main/Assets/Handshake.gif" height="32px">
-  <a href="https://wa.me/6285736178354">
+  <a href="https://wa.me/923165123719">
     <img align="left" alt="SIEGRIN | Whastapp" width="26px" src="https://github.com/siegrin/siegrin/blob/main/Assets/Whatsapp.svg" />
   </a> &nbsp;&nbsp;
   <a href="https://www.instagram.com/dark-umar404">
@@ -84,7 +84,7 @@ $ git clone https://github.com/umar404/BOSS-MD
 $ cd BOSS-MD
 $ npm i 
 ```
-If error try using yarn instead of npm, see [here](https://github.com/BochilGaming/games-wabot/tree/multi-device#if-npm-install-failed--try--using-yarn-instead-of-npm)
+If error try using yarn instead of npm, see [here](https://github.com/umar404/BOSS-MD/tree/multi-device#if-npm-install-failed--try--using-yarn-instead-of-npm)
 ```bash
 $ node .
 ```
