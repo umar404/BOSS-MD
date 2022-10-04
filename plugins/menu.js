@@ -1,5 +1,5 @@
-// Script Ori By BochilGaming
-// Ditulis Ulang Oleh ImYanXiao
+// Script Ori By Umar Devil 👿
+// Rewritten By Umar
 
 import { promises } from 'fs'
 import { join } from 'path'
@@ -27,10 +27,10 @@ const defaultMenu = {
 ┠─────═[ TODAY ]═─────⋆
 │╭────────────────···
 ┴│    *${ucapan()} %name!*
-⬡│☂︎ *Tanggal:* %week %weton
+⬡│☂︎ *Date:* %week %weton
 ⬡│☂︎ *Date:* %date
-⬡│☂︎ *Tanggal Islam:* %dateIslamic
-┬│☂︎ *Waktu:* %time
+⬡│☂︎ *Islamic Date:* %dateIslamic
+┬│☂︎ *Time:* %time
 │╰────────────────···
 ┠─────═[ INFO BOT ]═─────⋆
 │╭────────────────···
@@ -275,28 +275,28 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	rows: [
 	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
-	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
-	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho (๑˃̵　ᴗ　˂̵)"},
-	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
-	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
-	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Wibu wibu🐦"},
-	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagnean"},
-	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Untuk user premium"},
-	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
-	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
-	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
-	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu dari BOT"},
-	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
-	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
-	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
+	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Let's Increase Your Ranked!"},
+	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "The game is fun, it's fun(๑˃̵　ᴗ　˂̵)"},
+	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Family-safe features"},
+	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Family-safe features"},
+	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspiration"},
+	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "We Day 🐦"},
+	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, you sagnean"},
+	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "For premium users"},
+	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bichara With unknown people},
+	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Let's repent sis"},
+	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Search something Umar BOT"},
+	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download something from UMAR-BOT"},
+	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Create Sticker on BOT"},
+	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Why are you lazy, bro? 😹"},
+	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Change Audio with Filters"},
 	{title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
 	{title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
-	{title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
-	{title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
+	{title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Save something on BOT"},
+	{title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Maybe this tool can help u?"},
 	{title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
 	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
-	{title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
+	{title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Features without category!"},
 	]
   },
 ]
@@ -313,7 +313,7 @@ let tek = `✧────···[ Dashboard By Umar]···────✧
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Users Banned
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *ᴀᴜᴛʜᴏʀ :* umar404
+│ ▸ *ᴀᴜᴛʜᴏʀ :* U M A R 
 ┴ ▸ *ᴏᴡɴᴇʀ :* 𝐵𝛩𝑆𝑆 𝑈𝛭𝛥𝑅
 ✧
 ┬ 📌 𝘼𝙩𝙩𝙚𝙣𝙩𝙞𝙤𝙣 𝙋𝙡𝙚𝙖𝙨𝙚 😇:
