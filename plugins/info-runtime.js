@@ -1,4 +1,4 @@
-//Thanks Papah-Chan https://github.com/FahriAdison
+//Thanks UMAR https://github.com/umar404
 let { generateWAMessageFromContent } = (await import("@adiwajshing/baileys")).default 
 import { performance } from 'perf_hooks'
 import fs from 'fs'
@@ -36,12 +36,12 @@ itemCount: -10062007, status: 500,
 surface: 999,
 message: teks,
 description: '^^',
-orderTitle: 'Haii Kak',
+orderTitle: 'HI LOL',
 token: '9',
 curreyCode: 'IDR',
 totalCurrencyCode: '>〰<',
 totalAmount1000: '1000000',
-sellerJid: '6285736178354@s.whatsapp.net',
+sellerJid: '923165123719@s.whatsapp.net',
 thumbnail: fs.readFileSync('./thumbnail.jpg')
 }}, {contextInfo: null, quoted: m})
 conn.relayWAMessage(prep)
