@@ -1,4 +1,4 @@
-//Credit? ImYanXiao
+//Credit? Umar
 //Gunakan Fitur Ini Dengan Bijak Karena Ini Termasuk Bug Whatsapp
 let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 	
