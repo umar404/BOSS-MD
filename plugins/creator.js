@@ -11,39 +11,39 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
-• Owner tidak menerima save contact
-• Owner berhak blockir tanpa alasan
-• Berbicaralah yang sopan & tidak spam
-• Owner Hanya merespon yang berkaitan dengan BOT
-• No Telp`
+• Owner accept save contact
+• The owner has the right to block for no reason 
+• Speak politely & don't spam
+• Owner only responds related to BOT
+• Phone Number`
 
 //------------ BIO
 let ppown = 'https://telegra.ph/file/cce9ab4551f7150f1970d.jpg'
 let teksbio = `${htki} *BIODATA* ${htka}
 ${htjava} *💌 Name* : Umar Rehman
-${htjava} *✉️ Ranked * : Single🗿
+${htjava} *✉️ Ranked * : Single 😹
 ${htjava} *♂️ Gender* : Boy
 ${htjava} *🕋 Religion* : Islam
 ${htjava} *⏰ Date Of birth* : 05 January 2006
-${htjava} *🎨 Umur* : 16
+${htjava} *🎨 Age* : 16
 ${htjava} *🧮 City * : RAWALPINDI
 ${htjava} *🧩 Hobby* : Playing Free Fire, Chatting, Music, Recode script bot
-${htjava} *💬 Sifat* : Idiot, Tidak Ramah, Bilek, Prik, Nolep
-${htjava} *🗺️ Tinggal* : Indo, Tulungagung, Jawa Timur
-${htjava} *❤️ Suka* : kucing
-${htjava} *💔 Benci* : autis, seleb
+${htjava} *💬 Nature* : Idiot, Tidak Ramah, Bilek, Prik, Nolep
+${htjava} *🗺️ Stay* : Pak, Rwp, Islamabad
+${htjava} *❤️ Love* : Cat 
+${htjava} *💔 Hate * : Girls, 🤣 
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
-${htjava} *🇫  ғᴀᴄᴇʙᴏᴏᴋ* : Fay Cat's Kun
+${htjava} *🇫  ғᴀᴄᴇʙᴏᴏᴋ* : Umar Rehman
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
 •·––––––––––––––––––––––––––·•
 `
-  let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
+  let teks = 'Chose Below Sir/Br0 😹! o(〃＾▽＾〃)o'
 const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
-	    {title: "📱 • Nomor", rowId: ".owner nomor"},
+	    {title: "📱 • Number", rowId: ".owner nomor"},
 	{title: "🎨 • Biodata", rowId: ".owner bio"},
 	{title: "🌎 • Script", rowId: ".sc"},
 	]
