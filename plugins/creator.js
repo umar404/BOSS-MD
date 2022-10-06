@@ -18,7 +18,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 • Phone Number`
 
 //------------ BIO
-let ppown = 'https://telegra.ph/file/cce9ab4551f7150f1970d.jpg'
+let ppown = 'https://i.imgur.com/cG37u1e.jpeg'
 let teksbio = `${htki} *BIODATA* ${htka}
 ${htjava} *💌 Name* : Umar Rehman
 ${htjava} *✉️ Ranked * : Single 😹
