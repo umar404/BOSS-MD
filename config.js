@@ -48,7 +48,7 @@ global.pdana = '03475589080' //Your Fund Number
 global.ppulsa = '03475589080' //The SimCard Number You Are Using
 global.psaweria = 'https://www.youtube.com/c/UMARMODS' //If you have a link, please type it 
 /*============== NUMBER==============*/
-global.nomorbot = '488888781888' //owner number
+global.nomorbot = '19294515556' //owner number
 global.nomorown = '923165123719' //owner number
 global.namebot = 'Boss-Md BOT' //Name Bot
 global.nameown = 'Umar Devil' // Name Owner
@@ -56,7 +56,7 @@ global.nameown = 'Umar Devil' // Name Owner
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['+48 888 781 888', '❦ U m a r- Boss? 🎐', true], //Change your number to your name
+  ['+92 316 5123719', '❦ U m a r- Boss? 🎐', true], //Change your number to your name
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
